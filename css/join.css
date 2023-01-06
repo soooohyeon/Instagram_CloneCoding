@@ -1,0 +1,257 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgba(var(--b3f,250,250,250),1);
+    text-align: center;
+    color: rgba(var(--f52, 142, 142, 142), 1);
+    padding-bottom: 4px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    
+}
+body main {
+    margin: 34px 0 44px 0;
+    display: flex;
+    justify-content: center;
+}
+
+div section {
+    max-width: 350px;
+    background-color: #fff;
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    border-radius: 1px;
+    margin: 0 0 10px;
+    padding: 10px 0;
+}
+
+div.logo {
+    background-image: url("https://www.instagram.com/static/images/web/logged_out_wordmark.png/7a252de00b20.png");
+    background-size: 100%;
+    margin: 0 auto;
+    margin-top: 36px;
+    margin-bottom: 12px;
+    width: 175px;
+    height: 51px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    padding-bottom: 20px;
+}
+
+form h2 {
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 0 40px 10px;
+    text-align: center;
+}
+
+button {
+    border-radius: 4px;
+    color: #fff;
+    position: relative;
+    border: 1px solid transparent;
+    cursor: pointer;
+
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px 9px;
+    line-height: 18px;
+}
+
+div#facebookLogin {
+    margin: 8px 40px;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+button.facebookBtn{
+    background-color: rgba(var(--d69,0,149,246),1);
+
+    display: block;
+    position: relative;
+}
+/* 페이스북 로고 사진 */
+button span.facebook-Logo {
+    background-image: url('	https://www.instagram.com/static/bundles/es6/sprite_core_32f0a4f27407.png/32f0a4f27407.png');
+    
+    display: inline-block;
+    margin-right: 4px;
+    position: relative;
+    top: 3px;
+    background-position: -414px -300px;
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+}
+
+div#or {
+    margin: 10px 40px 18px;
+    flex-direction: row;
+}
+
+div.line {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 15px;
+    display: flex;
+}
+div.line span {
+    margin: 0px 18px;
+}
+
+.line::before { 
+    content: "";
+    flex-grow: 1;
+    margin-top: 7px;
+    background-color: rgba(var(--b38,219,219,219),1);
+    height: 1px;
+}
+
+.line::after {
+    content: "";
+    flex-grow: 1;
+    margin-top: 7px;
+    background-color: rgba(var(--b38,219,219,219),1);
+    height: 1px;    
+}
+
+div.inputBox {
+    margin: 0 40px 6px;
+    background: rgba(var(--b3f,250,250,250),1);
+    border: 1px solid #dbdbdb;
+    align-items: center;
+    box-sizing: border-box;
+    color: #262626;
+    flex-direction: row;
+    position: relative;
+    width: 270px;
+}
+
+label.box {
+    display: flex;
+    flex: 1 0 0;
+    height: 36px;
+    margin: 0;
+    min-width: 0;
+    padding: 0;
+    position: relative;
+}
+
+div.inputBox input {
+    background: rgba(var(--b3f,250,250,250),1);
+    border: 0;
+    flex: 1 0 auto;
+    margin: 0;
+    outline: 0;
+    overflow: hidden;
+    padding: 9px 0 7px 8px;
+    font-size: 12px;
+    text-overflow: ellipsis;
+}
+
+form p {
+    font-size: 12px;
+    line-height: 16px;
+    margin: 10px 40px;
+}
+
+button.nextBtn {
+    margin: 8px 40px;
+    background-color: rgba(var(--d69,0,149,246),.3);
+    opacity: 1;
+    border: 1px solid transparent;
+    cursor: pointer;
+    
+}
+
+section p.loginCheck {
+    color: rgba(var(--i1d,38,38,38),1);
+    font-size: 14px;
+    margin: 15px;
+}
+
+section p.loginCheck a {
+    color: rgba(var(--d69,0,149,246),1);
+    text-decoration: none;
+}
+
+
+div#download p {
+    color: rgba(var(--i1d,38,38,38),1);
+    font-size: 14px;
+    line-height: 30px;
+}
+
+div#download-link {
+    display: flex;
+    justify-content: center;
+}
+
+div#download-link img {
+    height: 40px;
+    cursor: pointer;
+}
+
+div.appleStore {
+    float: left;
+    margin-right: 8px;
+}
+div.googleStore {
+    float: left;
+}
+
+/* 하단 footer */
+footer {
+    display: flex;
+    padding-left: 16px;
+    padding-right: 16px;
+    /* padding: 0 20px; */
+    margin: 0;
+    position: relative;
+    flex: 0 0 auto;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: stretch;
+    align-content: stretch;
+
+    font-size: 12px;
+    color: rgba(var(--f52, 142, 142, 142), 1);
+}
+
+footer div#footer-top {
+    margin-top: 7px;
+    flex: 0 0 auto;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 0;
+}
+
+div.footer-link {
+    flex-direction: column;
+    justify-content: flex-start;
+    flex: 0 0 auto;
+    margin: 0 6px 12px 6px;
+
+    display: inline;
+    line-height: 20px;
+    white-space:nowrap;
+    }
+
+footer div#footer-bottom {
+    margin: 17px 0 49px;
+}
+
+footer select {
+    margin-right: 12px;
+    border: none;
+    background-color: rgba(var(--b3f,250,250,250),1);
+    font-size: 12px;
+    color: gray;
+}

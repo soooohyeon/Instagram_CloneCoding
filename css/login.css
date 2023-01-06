@@ -1,0 +1,183 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgba(var(--b3f,250,250,250),1);
+    text-align: center;
+    color: rgba(var(--f52, 142, 142, 142), 1);
+    padding-bottom: 4px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    
+}
+body main {
+    margin: 34px 0 44px 0;
+    display: flex;
+    justify-content: center;
+}
+
+div section {
+    width: 350px;
+    background-color: #fff;
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    border-radius: 1px;
+    margin: 0 0 10px;
+    padding: 10px 0;
+}
+
+div#logo {
+    background-image: url("https://www.instagram.com/static/images/web/logged_out_wordmark.png/7a252de00b20.png");
+    background-size: 100%;
+    margin: 0 auto;
+    margin-top: 36px;
+    margin-bottom: 20px;
+    width: 175px;
+    height: 51px;
+}
+
+div#profileImg {
+    background-image: url('https://mblogthumb-phinf.pstatic.net/MjAyMDA3MzFfMjM3/MDAxNTk2MTI1ODYwNDA2.twGL2kT3iPVp4boNWHwzpjRASZKwxpkFrIdf1qZgBHUg.7VZDwk7XIVJ04hShSmc-AsdTsv8dk3ZOpDLzuOhVlGMg.JPEG.jash47/IMG_3482.JPG?type=w800');
+    background-size: 100%;
+    align-self: center;
+    border: solid 1px #efefef;
+    border-radius: 100px;
+    display: block;
+    height: 84px;
+    margin: 0 auto;
+    margin-bottom: 16px;
+    margin-top: 8px;
+    width: 84px;
+}
+
+button {
+    border-radius: 4px;
+    color: #fff;
+    position: relative;
+    border: 1px solid transparent;
+    cursor: pointer;
+    
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px 9px;
+    margin: 0;
+    line-height: 18px;
+}
+
+div#login {
+    min-width: 120px;
+    margin: 32px 0 17px;
+}
+
+button.login{
+    background-color: #0095f6;
+    background-color: rgba(var(--d69,0,149,246),1);
+    border: 1px solid transparent;
+}
+
+div#delete {
+    margin-bottom: 20px;
+}
+
+button.btnGroup {
+    border: 0;
+    color: #0095f6;
+    display: inline-block;
+    padding: 0;
+    position: relative;
+    background: 0 0;
+    cursor: pointer;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+div.loginCheck {
+    font-size: 14px;
+
+    color: #8e8e8e;
+    font-size: 14px;
+    margin: 15px;
+    margin-top: 13px;
+    text-align: center;
+}
+
+div.accountCheck {
+    margin-bottom: 4px;
+}
+
+div.loginCheck p {
+    margin: 0;
+}
+
+div#download p {
+    color: rgba(var(--i1d,38,38,38),1);
+    font-size: 14px;
+    line-height: 30px;
+    margin-bottom: 16px;
+}
+
+div#download-link {
+    display: flex;
+    justify-content: center;
+}
+
+div#download-link img {
+    height: 40px;
+    cursor: pointer;
+}
+
+div.appleStore {
+    float: left;
+    margin-right: 8px;
+}
+div.googleStore {
+    float: left;
+}
+
+/* 하단 footer */
+footer {
+    display: flex;
+    padding-left: 16px;
+    padding-right: 16px;
+    /* padding: 0 20px; */
+    margin: 0;
+    position: relative;
+    flex: 0 0 auto;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: stretch;
+    align-content: stretch;
+
+    font-size: 12px;
+    color: rgba(var(--f52, 142, 142, 142), 1);
+}
+
+footer div#footer-top {
+    margin-top: 7px;
+    flex: 0 0 auto;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 0;
+}
+
+div.footer-link {
+    flex-direction: column;
+    justify-content: flex-start;
+    flex: 0 0 auto;
+    margin: 0 6px 12px 6px;
+
+    display: inline;
+    line-height: 20px;
+    white-space:nowrap;
+    }
+
+footer div#footer-bottom {
+    margin: 17px 0 49px;
+}
+
+footer select {
+    margin-right: 12px;
+    border: none;
+    background-color: rgba(var(--b3f,250,250,250),1);
+    font-size: 12px;
+    color: gray;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>가입하기 Instagram</title>
+    <link rel="stylesheet" href="../css/join.css">
+  </head>
+<body>
+    <main>
+        <div id="main-section">
+            <section>
+                <div class="logo"></div>
+                <form action="joinForm">
+                    <h2>친구들의 사진과 동영상을 보려면 가입하세요.</h2>
+                    <div id="facebookLogin">
+                        <button class="facebookBtn" type="button">
+                            <span class="facebook-Logo"></span>
+                            Facebook으로 로그인
+                        </button>
+                    </div>
+                    <div id="or">
+                        <div class="line"><span>또는</span></div>
+                    </div>
+                    <div class="inputBox">
+                        <label class="box">
+                            <input type="text" name="userId" placeholder="휴대폰 번호 또는 이메일 주소" required autocomplete="none">
+                        </label>
+                    </div>
+                    <div class="inputBox">
+                        <label class="box">
+                            <input type="text" name="userName" placeholder="성명" required>
+                        </label>
+                    </div>
+                    <div class="inputBox">
+                        <label class="box">
+                            <input type="text" name="userNickname" placeholder="사용자 이름" required autocomplete="none">
+                        </label>
+                    </div>
+                    <div class="inputBox">
+                        <label class="box">
+                            <input type="password" name="userPassword" placeholder="비밀번호" required>
+                        </label>
+                    </div>
+                    <p>
+                    저희 서비스를 이용하는 사람이 회원님의 연락처 정보를 Instagram에 업로드했을 수도 있습니다.
+                        <strong>더 알아보기</strong>
+                    </p>
+                    <button class="nextBtn" disabled type="submit" onclick = "location.href = 'joinFinish.html' ">
+                        가입
+                    </button>
+                </form>
+            </section>
+            <section>
+                <p class="loginCheck">
+                    계정이 있으신가요?
+                    <a href="login.html">로그인</a>
+                </p>
+            </section>
+            <div id="download">
+                <p>앱을 다운로드하세요.</p>
+                <div id="download-link">
+                    <div class="appleStore">
+                        <img src="https://www.instagram.com/static/images/appstore-install-badges/badge_ios_korean-ko.png/4a5c9d62d51b.png">
+                    </div>
+                    <div class="googleStore">
+                        <img src="https://www.instagram.com/static/images/appstore-install-badges/badge_android_korean-ko.png/f155b664a93b.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="footer-top">
+            <div class="footer-link">Meta</div>
+            <div class="footer-link">소개</div>
+            <div class="footer-link">블로그</div>
+            <div class="footer-link">채용 정보</div>
+            <div class="footer-link">도움말</div>
+            <div class="footer-link">API</div>
+            <div class="footer-link">개인정보처리방침</div>
+            <div class="footer-link">약관</div>
+            <div class="footer-link">인기 계정</div>
+            <div class="footer-link">해시태그</div>
+            <div class="footer-link">위치</div>
+            <div class="footer-link">Instagram Lite</div>
+            <div class="footer-link">연락처 업로드 & 비사용자</div>
+        </div>
+        <div id="footer-bottom">
+            <select aria-label="표시 언어 변경" class="hztqj">
+                <option value="korean">한국어</option>
+                <option value="english">영어</option>
+            </select>
+            © 2022 Instagram from Meta
+        </div>
+    </footer>
+</body>
+</html>
